@@ -19,11 +19,11 @@ final class ViewController: UIViewController {
         super.viewDidLoad()
         
         for trafficLight in trafficLightViews {
-            trafficLight.layer.cornerRadius = trafficLight.frame.size.width / 2
+            trafficLight.layer.cornerRadius = trafficLight.frame.width / 2
             trafficLight.alpha = 0.3
         }
 
-        changeTrafficButton.layer.cornerRadius = changeTrafficButton.bounds.height / 2
+        changeTrafficButton.layer.cornerRadius = changeTrafficButton.frame.height / 2
         
     }
 
